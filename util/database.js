@@ -23,7 +23,5 @@ const getDb = () => {
   throw "nO dATABASE";
 };
 
-// exports.mongoConnect = mongoConnect;
-// exports.getDb = getDb;
-// module.exports=mongoConnect;
-module.exports = { mongoConnect, getDb }
+exports.mongoConnect = mongoConnect;
+exports.getDb = getDb;
